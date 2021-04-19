@@ -1,0 +1,53 @@
+/* -- GENERAL -- */
+
+body{
+    background-color: rgb(44, 44, 49);
+}
+header{
+    position: fixed;
+    left: 7%;
+    top: 0;
+    z-index: 99;
+}
+main{
+    position: absolute;
+    left: 7%;
+    top: 5px;
+}
+
+/* -- HEADER -- */
+
+.divider{
+    height: 10px;
+}
+#logo{
+    position: absolute;
+    top: 10px;
+    width: 100px;
+}
+.navbar{
+    height: 40px;
+}
+.dropdown-item{
+    color: white;
+}
+.collapse{
+    position: absolute;
+    left: 120px;
+}
+
+/* ICONS */
+i{
+    color: white;
+}
+
+/* -- CONTAINER -- */
+
+
+
+/* -- TWITTER -- */
+
+.twitter{
+    height: 100%;
+    overflow-y: ;
+}
