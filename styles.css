@@ -9,6 +9,7 @@ header{
     left: 7%;
     top: 0;
     z-index: 99;
+    border-bottom: 1px solid white;
 }
 main{
     position: absolute;
@@ -16,13 +17,13 @@ main{
     top: 10px;
 }
 footer{
-    background-color: rgb(48, 48, 54);
     height: 50px;
     width: 100%;
     position: fixed;
     left: 7%;
     top: 93%;
     z-index: 99;
+    border-top: 1px solid white;
 }
 
 /* -- HEADER -- */
@@ -32,7 +33,8 @@ footer{
 }
 #logo{
     position: absolute;
-    top: 10px;
+    top: 9px;
+    left: 8px;
     width: 100px;
 }
 .navbar{
@@ -65,15 +67,23 @@ i{
 /* -- CONTAINER -- */
 
 .bg1{
-    background-color: rgb(33, 33, 38);
+    height: 1000px;
+    background-color: rgb(24, 24, 27);
 }
 .bg2{
-    background-color: rgb(33, 33, 38);
+    background-color: rgb(28, 28, 32);
+}
+.cards{
+    position: absolute;
+    top: 50px;
+    left: 10%;
 }
 
 /* -- TWITTER -- */
 
 .twitter{
+    position: fixed;
+    left: 897px;
     max-height: 650px;
     overflow-y: scroll;
 }
