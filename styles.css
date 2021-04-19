@@ -1,6 +1,7 @@
 /* -- GENERAL -- */
 
 body{
+    font-family: 'Ubuntu Mono', monospace;
     background-color: rgb(44, 44, 49);
 }
 header{
@@ -12,7 +13,16 @@ header{
 main{
     position: absolute;
     left: 7%;
-    top: 5px;
+    top: 10px;
+}
+footer{
+    background-color: rgb(48, 48, 54);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left: 7%;
+    top: 93%;
+    z-index: 99;
 }
 
 /* -- HEADER -- */
@@ -26,7 +36,7 @@ main{
     width: 100px;
 }
 .navbar{
-    height: 40px;
+    height: 45px;
 }
 .dropdown-item{
     color: white;
@@ -40,14 +50,58 @@ main{
 i{
     color: white;
 }
+#discord{
+    width: 20px;
+}
+#discord:hover{
+    color: rgb(109, 63, 122);
+    transition: 0.5s;
+}
+#twitter:hover{
+    color: rgb(0, 124, 128);
+    transition: 0.5s;
+}
 
 /* -- CONTAINER -- */
 
-
+.bg1{
+    background-color: rgb(33, 33, 38);
+}
+.bg2{
+    background-color: rgb(33, 33, 38);
+}
 
 /* -- TWITTER -- */
 
 .twitter{
-    height: 100%;
-    overflow-y: ;
+    max-height: 650px;
+    overflow-y: scroll;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px){
+    header{
+        left: 0;
+    }
+    main{
+        top: 0;
+    }
+    #logo{
+        max-width: 70px;
+        left: 3%;
+    }
+    .twitter{
+        display: none;
+    }
+    .navbar-toggler{
+        position: absolute;
+        left: 82%;
+        top: 5px;
+    }
+    .navbar-nav{
+        position: absolute;
+        left: 20%;
+        top: ;
+    }
 }
