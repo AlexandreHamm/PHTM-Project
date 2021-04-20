@@ -4,37 +4,28 @@ body{
     font-family: 'Ubuntu Mono', monospace;
     background-color: rgb(44, 44, 49);
 }
-header{
-    position: fixed;
-    left: 7%;
-    top: 0;
-    z-index: 99;
-    border-bottom: 1px solid white;
-}
-main{
-    position: absolute;
-    left: 7%;
-    top: 10px;
-}
 footer{
+    display: block;
     height: 50px;
     width: 100%;
-    position: fixed;
-    left: 7%;
-    top: 93%;
-    z-index: 99;
     border-top: 1px solid white;
+    z-index: 99;
+}
+nav{
+    z-index: 98;
+    border-bottom: 1px solid white;
 }
 
 /* -- HEADER -- */
 
 .divider{
     height: 10px;
+    z-index: 99;
 }
 #logo{
     position: absolute;
     top: 9px;
-    left: 8px;
+    left: 1%;
     width: 100px;
 }
 .navbar{
@@ -68,7 +59,7 @@ i{
 
 .bg1{
     height: 1000px;
-    background-color: rgb(24, 24, 27);
+    background-color: rgb(28, 28, 32);
 }
 .bg2{
     background-color: rgb(28, 28, 32);
@@ -82,10 +73,12 @@ i{
 /* -- TWITTER -- */
 
 .twitter{
-    position: fixed;
-    left: 897px;
-    max-height: 650px;
+    display: block;
+    position: sticky;
+    max-width: 200px;
+    height: 700px;
     overflow-y: scroll;
+    z-index: 50;
 }
 
 /* MEDIA QUERIES */
