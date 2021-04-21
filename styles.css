@@ -21,6 +21,7 @@ footer{
     box-shadow: 0px 2px 10px black;
 }
 nav{
+    position: absolute;
     border-top: 10px solid white;
     z-index: 98;
     border-bottom: 1px solid white;
@@ -79,10 +80,9 @@ i{
 /* -- TWITTER -- */
 
 .twitter{
-    margin-top: -50px;
     display: block;
-    position: sticky;
     max-width: 200px;
+    height: 100vh;
     z-index: 50;
 }
 .twitter-timeline{
